@@ -1,0 +1,37 @@
+.friend {
+    max-width:1444px;
+    margin:0 auto;
+    padding:50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.obshi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.friendAvatar {
+    width:300px;
+}
+.friendAvatar>img {
+    width:100%;
+}
+.friendInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.friendInfo>p {
+    font-size: 17px;
+    color:black;
+    line-height: 1.14;
+    letter-spacing: 1px;
+}
+.friendInfo>p::first-letter {
+        color:#4f8899;
+        font-size:40px;
+        font-weight:800;
+}

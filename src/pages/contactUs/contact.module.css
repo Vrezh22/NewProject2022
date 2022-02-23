@@ -1,0 +1,18 @@
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    padding:10px 50px;
+    margin-top: 20px;
+    resize: none;
+    text-align: center;
+}
+i{
+    margin-left: 10px;
+}
+.contactsApp{
+    margin-bottom: 10px;
+}

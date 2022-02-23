@@ -1,0 +1,22 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:25px 50px;
+    border-radius: 5px;
+}
+.imgLine {
+    width: 300px;
+}
+
+.imgLine>img {
+    width: 100%;
+}
+
+.dataLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 25px;
+}
